@@ -1,0 +1,187 @@
+
+:root {
+
+    /* Códigos HEX da paleta (monocromático):
+        #994CE5 #8B6BAA #663399 #BB91E5 #442266
+    */
+    --bgColorHeader: #6633994b;
+    --bgColorNavActive:rgba(102, 51, 153, 0.534);
+    --h1Color: #442266;
+    --publishedColor: rgba(128, 128, 128, 0.603);
+    --authorColor:rgba(128, 128, 128, 0.603);
+    --titleColor: #994CE5;
+    --paragraphFontSize: 16px;
+    --titleFontSize: 24px;
+    --subtitleFontSize: 18px;
+    --authorFontSize: 13px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--bgColorHeader);
+
+    padding: 20px 0;
+}
+
+main {
+    background-color: #FFF;
+}
+
+main {
+    width: 80%;
+}
+
+div.flex {
+    justify-content: space-between;
+}
+.post {
+    text-align: justify;
+    width: 90%;
+}
+
+.post-title {
+    font-size: var(--titleFontSize);
+    color: var(--titleColor);
+}
+
+.post-subtitle {
+    font-size: var(--subtitleFontSize);
+}
+
+.small {
+    font-size: var(--authorFontSize);
+    color: var(--authorColor);
+}
+
+form {
+    flex-direction: column;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    padding: 5px;
+}
+
+label {
+    align-self: normal;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+    padding: 10px;
+}
+
+#excluir, #modificar, #detalhes {
+    height: 25px;
+    width: 25px;
+    border: 0px;
+    color: transparent;
+    cursor: pointer;
+}
+#excluir {
+    background: url('./images/delete.png');
+}
+
+#modificar {
+    background: url('./images/update.png');
+}
+
+#detalhes {
+    background: url('./images/detalhes.png');
+}
+
+footer {
+    background-color: var(--bgColorHeader);
+}
+
+.link {
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 25%;
+    background-image: linear-gradient(#442266, #994CE5);
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FFF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-image: linear-gradient(#994CE5, #442266);
+}
+
+.m-auto {
+    margin: auto;
+}
+
+
+.center {
+    text-align: center;
+}
+
+.p-10 {
+    padding: 10px 0;
+}
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.m-10 {
+    margin: 10px 0;
+}
+
+.mr-5 {
+    margin-right: 0.5em;
+}
+
+.mr-30 {
+    margin-right: 3em;
+}
+
+.ml-30 {
+    margin-left: 3em;
+}
+
+.p-5 {
+    padding: 5px 0;
+}
+
+.link:visited {
+    color: #000;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+a > img {
+    vertical-align: middle;
+}
